@@ -15,6 +15,7 @@
 ////////////////////////////////////////////////////////////////////////////////// 	
 
 void TIM3_Int_Init(u16 arr,u16 psc);
+void TIM14_PWM_Init(u32 arr,u32 psc);
 void TIM9_Int_Init(u16 arr,u16 psc);
 
 extern volatile unsigned long long FreeRTOSRunTimeTicks;
